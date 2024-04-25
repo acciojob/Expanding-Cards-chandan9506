@@ -1,6 +1,8 @@
 //your JS code here. If required.
 document.addEventListener("DOMContentLoaded", function() {
     const panels = document.querySelectorAll(".panel");
+
+	panels[0].classList.add("active");
   
     panels.forEach(function(panel, index) {
       panel.addEventListener("click", function() {
